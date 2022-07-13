@@ -15,9 +15,9 @@
             }
         },
         methods: {
-            changeCounter() {
-                this.counter++;
-            }
+            changeCounter(value) {
+                this.counter += value;
+            },
         }
     }
 </script>

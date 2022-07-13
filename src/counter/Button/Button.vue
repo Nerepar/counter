@@ -4,9 +4,9 @@
     export default {
         name: "CounterButton",
         methods: {
-            changeCounter() {
-                this.$emit('changeCounter');
-            }
+            changeCounter(value) {
+                this.$emit('changeCounter', value);
+            },
         }
     }
 </script>
